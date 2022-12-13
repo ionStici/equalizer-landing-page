@@ -115,3 +115,146 @@ body {
 
     color: #fcfaf9;
 }
+
+.card__heading {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem;
+}
+
+.card__text {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+    margin-bottom: 2.5rem;
+}
+
+.card__price {
+    margin-bottom: 2.8rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.card__price--1 {
+    font-size: 6.5rem;
+    font-weight: 700;
+}
+
+.card__price--2 {
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+
+.btn {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    border: none;
+    border-radius: 1.2rem;
+    display: block;
+    width: 100%;
+    padding: 2rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.btn img {
+    margin-right: 0.8rem;
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.btn--ios {
+    color: #fcfaf9;
+    background-color: #191826;
+    margin-bottom: 1.6rem;
+}
+
+.btn--ios:hover {
+    background-color: #66e2dc;
+}
+
+.btn--ios img {
+    margin-top: -0.2rem;
+}
+
+.btn--android {
+    color: #191826;
+    background-color: #fcfaf9;
+}
+
+.btn--android:hover {
+    background-color: #ffb964;
+}
+
+/* FOOTER */
+
+.footer {
+    max-width: 111rem;
+    margin: 0 auto;
+    margin-bottom: 9.1rem;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer__logo {
+    grid-column: 1 / 2;
+}
+
+.footer__copyright-box {
+    grid-column: 2 / 4;
+    padding-right: 17rem;
+}
+
+.footer__copyright,
+.footer__help {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    color: #191826;
+}
+
+.footer__help a,
+.footer__help a:link,
+.footer__help a:visited {
+    text-decoration: none;
+    font-weight: 700;
+    color: #191826;
+}
+
+.footer__social-box {
+    list-style: none;
+    grid-column: 4 / 5;
+
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 2rem;
+}
+
+.footer__icon {
+    fill: #191826;
+    cursor: pointer;
+    transition: fill 0.2s, transform 0.2s;
+}
+
+.footer__icon:hover {
+    fill: #fa7453;
+    transform: scale(1.05);
+}
+
+.footer__icon:active {
+    transform: scale(0.95);
+}
+
+/* MEDIA QUERIES */
