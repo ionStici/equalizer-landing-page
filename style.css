@@ -450,3 +450,170 @@ body {
         right: -3.2rem;
     }
 }
+
+/* 704px */
+@media only screen and (max-width: 44em) {
+    .top-right-img {
+        top: -2.5rem;
+        right: -2.5rem;
+        width: 20rem;
+        height: revert;
+    }
+}
+
+/* 640px */
+@media only screen and (max-width: 40em) {
+    .top-right-img {
+        display: none;
+    }
+}
+
+/* 600px */
+@media only screen and (max-width: 37.5em) {
+    .background-tablet {
+        display: none;
+    }
+
+    .background-mobile {
+        display: revert;
+        position: fixed;
+        top: -20rem;
+        right: -20rem;
+    }
+
+    .nav {
+        margin-top: 4rem;
+    }
+
+    .header {
+        margin-top: 6.3rem;
+        margin-bottom: 25rem;
+    }
+
+    .heading-1 {
+        width: revert;
+        font-size: 4rem;
+        line-height: 4.8rem;
+        letter-spacing: -0.454545px;
+        padding-right: 2rem;
+    }
+
+    .header__text-box {
+        margin-top: 2.5rem;
+    }
+
+    .paragraph {
+        width: revert;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: revert;
+        margin-bottom: 8rem;
+    }
+
+    .footer__logo {
+        grid-column: 1 / 2;
+        margin-bottom: 3rem;
+    }
+
+    .footer__copyright-box {
+        grid-column: 1 / 2;
+        width: revert;
+        margin-bottom: 5rem;
+    }
+
+    .footer__social-box {
+        grid-column: 1/2;
+        grid-row: revert;
+        margin-left: revert;
+    }
+
+    .card {
+        left: 50%;
+        top: 17.5rem;
+        transform: translate(-50%);
+    }
+
+    .main__phone-img {
+        left: 50%;
+        top: -16rem;
+        transform: translate(-50%);
+    }
+}
+
+/* 464px */
+@media only screen and (max-width: 29em) {
+    .main {
+        margin-left: revert;
+        margin-right: revert;
+        width: 100%;
+    }
+}
+
+/* 400px */
+@media only screen and (max-width: 25em) {
+    .nav {
+        margin-left: 2.4rem;
+        margin-right: 2.4rem;
+    }
+
+    .header {
+        margin-left: 2.4rem;
+        margin-right: 2.4rem;
+        margin-bottom: 18rem;
+    }
+
+    .heading-1 {
+        padding-right: revert;
+    }
+
+    .footer {
+        margin-left: 2.4rem;
+        margin-right: 2.4rem;
+    }
+
+    .main__background-img {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .main__phone-img {
+        width: 20.9rem;
+        left: 50%;
+        top: -10rem;
+        transform: translate(-50%);
+    }
+
+    .card {
+        top: revert;
+        bottom: -37.5rem;
+        width: 100%;
+        padding: 4.8rem 3.7rem 4.8rem 3.6rem;
+    }
+
+    .main {
+        margin-bottom: 45rem;
+    }
+
+    .background-mobile {
+        top: -25rem;
+        right: -22rem;
+    }
+}
+
+/* 336em */
+@media only screen and (max-width: 21em) {
+    html {
+        font-size: 9px;
+    }
+
+    .background-mobile {
+        top: -30rem;
+    }
+}
+
+/* END */
