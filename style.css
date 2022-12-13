@@ -1,0 +1,117 @@
+/* STYLES RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* GENERAL STYLES */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #191826;
+
+    background-image: url(./assets/bg-main-desktop.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.heading-1 {
+    font-size: 8.8rem;
+    font-weight: 700;
+    line-height: 8.8rem;
+    letter-spacing: -1px;
+    padding-right: 1rem;
+}
+
+.paragraph {
+    line-height: 3.4rem;
+}
+
+.top-right-img {
+    position: absolute;
+    top: -4rem;
+    right: 0;
+}
+
+.background-mobile {
+    display: none;
+}
+
+.background-tablet {
+    display: none;
+}
+
+/* NAV BAR */
+
+.nav {
+    max-width: 111rem;
+    margin: 6.2rem auto 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    max-width: 111rem;
+    margin: 12.1rem auto 0 auto;
+    margin-bottom: 32rem;
+}
+
+.header__text-box {
+    width: 82.5rem;
+    margin-top: 3.5rem;
+}
+
+/* MAIN */
+
+.main {
+    max-width: 111rem;
+    height: 60rem;
+    margin: 0 auto;
+    border-radius: 1.2rem;
+    background-color: #191826;
+    position: relative;
+
+    margin-bottom: 22rem;
+}
+
+.main__background-img {
+    position: absolute;
+    top: -4rem;
+    left: 33.6rem;
+}
+
+.main__phone-img {
+    width: 31.2rem;
+    position: absolute;
+    top: -21.3rem;
+    left: 10.2rem;
+}
+
+/* CARD */
+
+.card {
+    width: 44.6rem;
+    /* height: 62.5rem; */
+    background-color: #fa7453;
+    border-radius: 1.2rem;
+    padding: 5.8rem 5.7rem 4rem 5.7rem;
+
+    position: absolute;
+    right: 9.5rem;
+    top: 9.5rem;
+
+    color: #fcfaf9;
+}
